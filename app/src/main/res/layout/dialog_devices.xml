@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/button_device_connect"
+        android:layout_toStartOf="@+id/button_device_connect"
+        >
+
+        <TextView
+            android:id="@+id/text_device_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/md_listitem_margin_left"
+            android:layout_marginStart="@dimen/md_listitem_margin_left"
+            android:textSize="@dimen/md_listitem_textsize"
+            />
+
+        <TextView
+            android:id="@+id/text_device_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/md_listitem_margin_left"
+            android:layout_marginStart="@dimen/md_listitem_margin_left"
+            android:layout_below="@+id/text_device_name"
+            android:textSize="@dimen/font_small"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_device_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/md_dialog_frame_margin"
+        android:layout_marginEnd="@dimen/md_dialog_frame_margin"
+        android:layout_marginTop="@dimen/dialog_button_margin"
+        android:layout_marginBottom="@dimen/dialog_button_margin"
+        android:text="@string/button_text_connection"
+        android:textAllCaps="true"
+        android:textSize="@dimen/md_button_textsize"
+        android:textColor="@drawable/dialog_button_text_color"
+        android:background="@drawable/outline_button"
+        />
+
+</RelativeLayout>

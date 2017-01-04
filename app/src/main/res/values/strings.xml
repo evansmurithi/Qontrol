@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Qontrol</string>
+
+    <string name="button_text_connection">Connect</string>
+
+    <string name="dialog_paired_devices_title">Paired devices</string>
+    <string name="dialog_discovered_devices_title">Discovered devices</string>
+    <string name="dialog_discover_devices_text">Discover devices</string>
+    <string name="dialog_cancel_connection_text">Cancel</string>
+    <string name="title_activity_device">DeviceActivity</string>
+
+    <string name="text_device_connecting">Connecting&#8230;</string>
+    <string name="text_device_connected">Connected.</string>
+</resources>
